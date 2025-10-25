@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Nested Flexbox</title>
+    <style>
+.flex{
+  
+  display: flex;
+  flex-direction: row;
+  
+}
+
+.row1{
+  color: black;
+  font-size: 25px;
+  font-weight: 500;
+}
+.row2{
+  
+  display: flex;
+  flex-direction: row;
+  font-size: 25px;
+  
+  justify-content: space-between;
+  
+}
+.row2item{
+  background-color: black;
+  color: white;
+}
+    </style>
+  </head>
+  <body>
+<div class="flex">
+
+  <div style="width:150px;
+  background-color: lightpink; height: 75px;"></div>
+
+  <div class="column1" style="width:300px;
+  background-color: lightblue; height: 75px;">
+  <div class="row1">row1</div>
+  <div class="row2">
+<div class="row2item" >row2</div>
+<div class="row2item" >row2</div>
+  </div>
+  
+  </div>
+</div>
+  </body>
+</html>

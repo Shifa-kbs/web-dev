@@ -1,0 +1,11 @@
+.search-bar{
+        padding-left: 15px;
+        padding-bottom: 10px;
+        padding-top: 10px;
+        border-width: 1px;
+  border-style: solid;
+        font-size: 16px;
+        border-radius: 10px;
+        border-color: rgb(200, 200, 200);;
+       
+      }

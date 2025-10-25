@@ -1,0 +1,44 @@
+.container{
+  box-shadow: 0 0 6px rgba(0, 0, 0, 0.3);
+  border-radius: 6px;
+  padding-left: 10px;
+  padding-bottom: 10px;
+  padding-top: 5px;
+  width: 400px;
+
+}
+
+
+
+.cat{
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 200px;
+    vertical-align: middle;
+
+    
+  }
+  .text{
+  border: none;
+  margin-left: 6px;
+  font-size: 15px;
+  margin-right: 40px;
+  vertical-align: middle;
+  }
+  .btn{
+    background-color:rgb(54, 152, 233);
+        border: none;
+        font-weight:900 px;
+        font-size: 13px;
+         color: white;
+         border-radius: 20px;
+         padding-left: 15px;
+         padding-right: 15px;
+         padding-top: 7px;
+         padding-bottom: 7px;
+         vertical-align: middle;
+  }
+
+  
