@@ -61,6 +61,41 @@
   border-color:rgb(192, 192, 192);
   margin-left:  -1px;
   margin-right: 10px;
+
+  
+}
+.search-button,
+ .voice-search-button
+ .upload-icon-container{
+  position: relative;
+  justify-content: center;
+  align-content: center;
+  display: flex;
+}
+
+.search-button .tooltip,
+.voice-search-button  .tooltip,
+.upload-icon-container .tooltip{
+  position: absolute;
+  background-color: gray;
+  color: white;
+  padding-left: 8px;
+  padding-right: 8px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  border-radius: 2px;
+  font-size: 12px;
+  font-family: Roboto, Arial;
+  bottom: -30px;
+  opacity: 0;
+  transition: opacity 0.15s;
+  pointer-events: none;
+  white-space: nowrap;
+}
+.search-button:hover .tooltip
+.voice-search-button:hover .tooltip
+.upload-icon-container:hover  .tooltip{
+  opacity: 1;
 }
 .search-icon{
   height: 25px;

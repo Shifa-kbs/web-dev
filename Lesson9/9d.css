@@ -1,0 +1,22 @@
+
+.container{
+  background-color: black;
+  color: white;
+  border-color: black;
+  border-width: 1px;
+  border-style: solid;
+  padding-left: 10px;
+  padding-bottom: 10px;
+  width: 350px;
+}
+.first{
+  font-size: 18px;
+  font-family: Arial;
+  font-weight: bold;
+}
+.second{
+   font-family: Arial;
+   font-size: 15px;
+   color: rgb(169, 168, 168);
+}
+ 

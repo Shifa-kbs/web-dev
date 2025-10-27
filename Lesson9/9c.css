@@ -1,0 +1,10 @@
+
+.container{
+  border-color: black;
+  border-width: 1px;
+  border-style: solid;
+  padding-left: 10px;
+  padding-bottom: 10px;
+  width: 300px;
+}
+  

@@ -1,0 +1,10 @@
+
+      .firstbox,
+      .secondbox{
+        display: block;
+        font-size: 15px;
+      }
+      .firstbox{
+        margin-bottom: 7px;
+      }
+   
